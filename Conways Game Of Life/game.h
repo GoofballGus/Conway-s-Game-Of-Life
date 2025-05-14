@@ -8,10 +8,10 @@ public:
 	const int SCREEN_WIDTH = 1000;  
 	const int SCREEN_HEIGHT = 1000;
 
-	int run();
-	int render();
-	int update();
-	int init();
+	void run();
+	void render();
+	void update();
+	void init();
 
 private:  
 	std::list<Cell> cells;
